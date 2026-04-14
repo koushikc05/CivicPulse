@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
-import { Bell, Menu, X, LogOut, User, Leaf } from "lucide-react";
+import { Bell, Menu, LogOut, User, Leaf } from "lucide-react";
 
 export default function Navbar({ onMenuToggle }) {
   const { userData, logout } = useAuth();
